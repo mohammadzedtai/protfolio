@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+        .box{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            position: relative;
+        }
+        .div1{
+            background-color: rgb(255, 162, 0);
+            width: 25%;
+            height: 100%;
+        }
+        .div2{
+            background-color: white;
+            width: 25%;
+            height: 100%;
+        }
+        .div3{
+            background-color: rgb(255, 102, 0);
+            width: 50%;
+            height: 100%;
+            border-radius: 1050px 0 0 1000px;
+        }
+        .boxa{
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 15px;
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            right: 5%;
+            height: 80vh;
+            padding: 30px 50px;
+        }
+        nav{
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nb-1 h4{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .nb-2 ul{
+            list-style: none;
+            display: flex;
+            gap: 30px;
+        }
+        .nb-2 li{
+            font-size: 20px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .nb-2 li:hover{
+            transform: scale(1.1);
+            color: rgb(255, 102, 0);
+        }
+        section{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            height: calc(100% - 80px);
+            gap: 30px;
+        }
+        .se-1{
+            flex: 1;
+            width: 40%;
+        }
+        .se-1 h3{
+            font-size: 25px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .se-1 h1{
+            font-size: 50px;
+            text-decoration: underline;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        .se-1 h2{
+            font-size: 30px;
+            color: rgb(9, 9, 9);
+            margin-bottom: 20px;
+        }
+        .se-1 p{
+            font-size: 15px;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .btn-1{
+            padding: 5px 15px;
+            font-size: 20px;
+            border-radius: 50px;
+            border: none;
+            background-color: rgb(255, 102, 0);
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn-1:hover{
+            background-color: rgba(255, 102, 0, 0.9);
+            transform: scale(1.05);
+        }
+        .se-2{
+            flex: 1;
+            display: flex;
+            width: 60%;
+            align-items: center;
+            border: 10px solid rgb(255, 102, 0);
+            border-radius: 49% 0 0 49%;
+            padding: 20px;
+        }
+        img{
+            max-width: 80%;
+            height: auto;
+            margin-left: 100px;
+            border-radius: 50% 50% 0 50%;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+
+        <div class="boxa">
+            <header>
+                <nav>
+                    <div class="nb-1"><h4>Dezven</h4></div>
+                    <div class="nb-2">
+                        <ul>
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Services</li>
+                            <li>Experience</li>
+                            <li>Portfolio</li>
+                            <li>Testimonial</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <section>
+                <div class="se-1">
+                    <h3>Hi There, I'm</h3>
+                    <h1>Dezven Indiana</h1>
+                    <h2>Freelance Developer |</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iure rem quasi eius, voluptatibus vitae neque enim inventore. Ducimus, distinctio nostrum?</p>
+                    <button class="btn-1">Contact Me</button>
+                </div>
+                <div class="se-2">
+                    <img src="./img/femal.jpg" alt="Profile Picture">
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
