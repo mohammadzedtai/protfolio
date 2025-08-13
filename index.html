@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <style>
+        .container{
+            width: 100%;
+            background-repeat: repeat;
+            background-size:contain;
+            background-image: url(./img/13a.jpg);
+        }
+       nav{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            color:white;
+           background-color: rgba(0, 0, 0, 0.513);
+        }
+        header{
+            position: sticky;
+            top: 0px ;
+            z-index: 999px;
+        }
+        .nb-1{
+            width: 20%;
+            display: flex;
+            margin-left: 50px;
+            justify-content: flex-start;
+            
+        }
+        .nb-2{
+            width: 60%;
+            display: flex;
+            justify-content: center;
+        }
+        .nb-3{
+            width: 20%;
+            margin-right: 50px;
+            justify-content: flex-end;
+            display: flex;
+        }
+
+        .box1{
+            width: 500px;
+            border-radius: 30px;
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        
+            
+           
+        }
+        ul{
+            display: flex;
+            gap: 60px ;
+            font-size: 25px;
+            list-style: none;
+            margin-top: 20px;
+            text-align:center;
+        }
+        .font4{
+            
+            font-size: 40px;
+            margin: 20px;
+        }   
+        .font5{
+            
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .card{
+           width: 300px;
+           height: 350px;
+            color: white;
+            margin: 30px;
+            font-size: 25px;
+           border: 3px solid white;
+           background-color: blue;
+            border-radius: 20px;
+        }
+        .sa{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .headerb1{
+            height: 30px;
+            width: 100px;
+            border: none;
+            color: white;
+            border-radius: 30px;
+            font-size: 20px;
+        }
+        .headerb1:hover{
+            color: black;
+        }
+
+        .box2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 50px;
+        }
+        h1{
+            color: rgb(236, 5, 236);
+            font-size: 60px;
+            display: block;
+            text-align: center;
+
+        }
+        .h1{
+                color: rgb(252, 251, 252);
+            font-size: 60px;
+            display: block;
+            text-align: center;
+        }
+
+        .button2{
+            display: flex;
+            gap: 50px;
+            padding-block: 50px;
+            justify-content: center;
+        }
+        .font3{
+            color: rgb(240, 236, 239);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60px;
+            font-size: 50px;
+        }
+        
+
+        .button:hover{
+            color: #000;
+            transform: scale(1.1);
+        }
+
+        .box3{
+            display: flex;
+            color: purple;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+         .card-1{
+           width: 300px;
+           height: 350px;
+           background-color: #1100ff;
+            border: 3px solid white;
+          color:white;
+          font-size: 25px;
+             margin: 30px;
+            border-radius: 20px;
+        }
+        .card-2{
+           width: 300px;
+           height: 350px;
+           background-color: #1100ff;
+            border: 3px solid white;
+          color:white;
+          font-size: 25px;
+          margin: 30px;
+            border-radius: 20px;
+        }
+        .images{
+            height: 500px;
+            width: 400px;
+            margin-top: 30px;
+            display: block;
+            
+        }
+
+        .images2{
+            display: none;
+            width: auto;
+        }
+
+        h2{
+            text-align: center;
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+            font-family:  "Roboto slap" ;
+            
+        }
+
+        
+
+        .aboutme{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .About{
+            color: white;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        .skills{
+             background-color: rgba(74, 74, 74, 0.324);
+            display: flex;
+            gap: 60px;
+            width:100%;
+            justify-content: center;
+          align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .html{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+
+        .box4{
+            display: flex;
+            gap: 80px;
+            flex-wrap: wrap;
+           
+            justify-content: center;
+        }
+         .box5{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+           .word{
+     
+          color:white;
+          font-size: 25px;
+          margin: 30px;
+             border-radius: 50%;
+            img{
+             border: 5px solid blue;
+             padding: 10px;
+                width: 150px;
+                   border-radius: 50%;
+                height:150px;
+            }
+        }
+
+        .project{
+            height: 700px;
+            border: none;
+            width: 350px;
+        }
+        .font-size{
+            font-size: 35px;
+
+        }
+        .project:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+
+        .p1{
+            height: 450px;
+        }
+        p{
+            color: #ffffff;
+            font-size: 30px;
+            text-align: center;
+            font-weight:900;
+        }
+        a{
+            font-size: 20px;
+            color: aquamarine;
+            text-decoration: none;
+        }
+
+
+        @media(max-width: 600px){
+            .box1{
+                width: 400px;
+                
+            }
+            .headerb1{
+                width: 50px;
+            }
+            h1{
+                font-size: 40px;
+            }
+            .button{
+                width: 120px;
+                font-size: 15px;
+            }
+
+
+            
+        }
+
+      
+
+
+        @media(max-width:1160px){
+            h2{
+                width: 100%;
+              
+            }
+            nav{
+
+                display: flex;
+                justify-content: center;
+            }
+           .nb-2 , .nb-3{
+           display: none;
+           }
+           
+
+            
+        }
+         .button1{
+            border-radius: 30px;
+            display: flex;
+            width: 250px;
+            font-size: 30px;
+            justify-content:center ;
+            align-items: center;
+            text-align: center; 
+            color: white;
+            background-color: rgba(0, 0, 0, 0); 
+            border: 3px solid blue ;
+        }
+        .button1:hover{
+             color: rgb(194, 0, 0);
+             transform: scale(1.1);
+        }
+   
+        .button:hover{
+             color: rgb(19, 255, 172);
+             transform: scale(1.1);
+        }
+        .button{
+            border-radius: 30px;
+            display: flex;
+            width: 150px;
+            font-size: 25px;
+            height: 40px;
+            justify-content:center ;
+            align-items: center;
+            text-align: center; 
+            color: white;
+            background-color: rgba(0, 0, 0, 0); 
+            border-color: blue ;
+        }
+        li:hover{
+            color: rgb(19, 255, 172);
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 50px;
+        }
+        @media(max-width:800px){
+          .button2{
+      
+           flex-wrap: wrap;
+          }
+        }
+
+
+      
+    
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+             <nav>
+        <div class="nb-1"> <img src="./img/7a-removebg-preview.png" height="100px" width="120px" style="background-color: white;" alt=""></div>
+
+           <div class="nb-2"> <ul>
+                <li>SERVICES</li>
+                <li>TECHNOLOGIES</li>
+                <li>PORTFOLIO</li>
+                <li>CONTACT</li>
+            </ul></div>
+
+            <div class="nb-3"><button class="button">ENG<i class="fa-solid fa-globe"></i></button></div>
+       </nav>
+        
+    </header>
+        <section>
+            <div class="box2">
+                <p class="h1">Full-stack devloper, i build smart <br>solutions  from font-end to digital <br> functionality.</p>
+             </div>
+            <div class="button2">
+                <button class="button1">contact me <i class="fa-solid fa-arrow-right-long"></i>  </button>
+                <button class="button1">Our Project <i class="fa-solid fa-arrow-right-long"></i>  </button>
+            </div>
+        </section>
+
+        <section>
+            <div class="box3">
+                 <h1>About Me</h1>
+                 
+            </div>
+
+            <div class="aboutme">
+                <div class="About font-size">
+                    <div><h2>Hello and Welcome! </h2><div>I am studing Information B.COM</div><div>at the University of SILVER OAK</div><div>Concentrating in Full-stack Devloper</div><div>Take a look at my work throuh the tabs :D</div></div>  
+                    
+                </div>
+                
+            </div>
+            
+           
+        </section>
+
+        <section>
+
+            <div class="box3">
+                   <h1>My Skills</h1> 
+                </div>
+            <div class="skills">
+
+                <img class="html" src="./img/6a-removebg-preview.png" alt="">
+
+                <img class="html" src="./img/8a-removebg-preview.png" alt="">
+
+                <img class="html" src="./img/ca-removebg-preview.png" alt="">
+              </div>
+               
+               
+                
+
+                
+          
+            
+        </section>
+
+        <section>
+            <div class="box3">
+                <h1>My Projects
+                </h1>
+            </div>
+
+            <div class="box4">
+                <div class="project"><img class="p1" height="100%" width="100%" src="./img/9a.jpg" alt=""><P>My Exam portfolio</P><p>Github Project link: <a  href="./protfolio.html">https://bt-mauve.vercel.app/</a>   </p></div>
+
+                  <div class="project"><img class="p1" height="100%" width="100%" src="./img/10a.jpg" alt="">
+                <P>My Exam Shose</P><p>Github Project link:
+                    <a href="./shose.html">https://github1-project-1.vercel.app/</a>
+                </div>
+
+                    <div class="project"><img class="p1" height="100%" width="100%" src="./img/11a.jpg" alt=""><P>My Exam portfolio</P><p>Github Project link: <a href="./make.html">https://project-2-ten-mu.vercel.app/</a></p></div>
+
+                    <div class="project"><img class="p1" height="100%" width="100%" src="./img/15a.png" alt=""><P>My Exam portfolio</P><p>Github Project link: <a href="./tome.html">https://exam-mq.vercel.app/</a></p></div>
+                
+            </div>
+        </section>
+        <section class="card-0">
+        <div class="font3"><h1>MY SERVICES</h1></div>
+       <div class="sa">
+         <div class="card">
+            <div class="font4"><i class="fa-solid fa-laptop-code" style="color: #fdfdfe;"></i> Website Development</div>
+            <div class="font5">I Create website based on your ready-made design. Whether it's a landing page or a business card website. I Will make it look great and work smoothly on any device.</div>
+        </div>
+         <div class="card-1">
+            <div class="font4"><i class="fa-solid fa-pen-nib" style="color: #efefef;"></i> Web Design</div>
+            <div class="font5">I can design your website from scratch. I create modern, simple, and user-friendly designs that match your brand and goals.</div>
+        </div>
+        <div class="card-2">
+            <div class="font4"><i class="fa-solid fa-w" style="color: #f3f3f3;"></i> WordPress Development</div>
+            <div class="font5">I build websites on wordpress, making them easy to update amd manage. it's a great choice for blogs small businesses, or portfolios.</div>
+        </div>
+       </div>
+    </section>
+    <div class="box5">
+        <div class="font3">
+            <h1>Essential Soft Skills</h1>
+        </div>
+         <div class="word">
+           <img src="./img/1a.jpg" alt="">
+          <p class="h2">Time Working</p>
+        </div>
+        <div class="word">
+           <img src="./img/2a.jpg" alt="">
+          <p class="h2">Networking</p>
+        </div><div class="word">             
+           <img src="./img/3a.jpg" alt="">
+          <p class="h2">Tem Working</p>
+        </div><div class="word">
+           <img src="./img/4a.jpg" alt="">
+          <p class="h2">Conflici <br> Resolution</p>
+        </div>
+        <div class="word">
+           <img src="./img/5a.jpg" alt="">
+          <p class="h2">Creative <br> Thinking</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

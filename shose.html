@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: white;
+
+        }
+
+        .boxa {
+            height: 100px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .boxb {
+            height: 100px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;   
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .se-na-1 {
+            height: 100px;
+            width: 70%;
+            margin-left: 70px;
+            display: flex;
+        }
+
+        .se-na-2 {
+            height: 100px;
+            width: 20%;
+            display: flex;
+        }
+
+        .se-na-3 {
+            height: 100px;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            background-color: blue;
+        }
+
+        .se-nb-1 {
+            height: 100px;
+            display: flex;
+            font-size: 20px;
+        }
+
+        .h1 {
+            font-size: 60px;
+            margin-right: 200px;
+            margin-left: 100px;
+        }
+
+        li:hover {
+            color: aqua;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            font-size: 30px;
+            list-style: none;
+        }
+
+        .sc-a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            background-color: black;
+        }  
+        
+
+        .sc-btn-1 {
+            width: 350px;
+            height: 100px;
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border: 3px solid blue;
+            border-radius: 50px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        
+
+        .sc-a-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 1000px;
+
+            }
+
+        }
+
+        .sc-a-2 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .bold {
+            font-weight: bold;
+            font-size: 100px;
+            margin: 50px;
+            text-align: center;
+        }
+
+        .p {
+            font-weight: bold;
+            font-size: 50px;
+            margin-top: 40px;
+            text-align: center;
+        }
+         .sc-b-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+          .sc-b-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 500px;
+                height: 400px;
+
+            }
+
+        }
+        .show {
+            font-weight: bold;
+            font-size: 60px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .bot {
+            font-size: 30px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .Price{
+            font-size: 35px;
+            margin-top: 10px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .card {
+            width: 550px;
+            height: 750px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px;
+            flex-direction: column;
+        }
+        .fo-a{
+            width: 90%;
+            margin: auto;
+            height: 200px;
+            display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        @media (max-width: 992px) {
+
+            .se-na-1,
+            .se-na-2,
+            .se-na-3 {
+                display: none;
+            }
+
+            .h1 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            ul {
+                flex-wrap: wrap;
+            }
+            .sc-a {
+                flex-direction: column;
+                height: auto;
+            }
+            .sc-a-1{
+                flex-wrap: wrap;
+            }
+           .sc-b-2{
+            flex-wrap: wrap;
+           }
+           .fo-a{
+            flex-wrap: wrap;
+           }
+           .se-nb-1{
+            flex-wrap: wrap;
+           }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        
+<header>
+            <nav class="boxa">
+                <h1 class="h1">moio</h1>
+                <div class="se-na-1">
+                    <ul>
+                        <li>Articles</li>
+                        <li><a href="#Shos">Shos</a></li>
+                        <li>Magazine</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+
+                <div class="se-na-2">
+                    <ul>
+                        <li>John Doe</li>
+                        <li>Cart(1)</li>
+                    </ul>
+                </div>
+                <div class="se-na-3">
+                    <ul>
+                        <li>Men</li>
+                        <li>Women</li>
+                    </ul>
+                </div>
+            </nav>   </header>
+
+
+            <nav class="boxb">
+                <div class="se-nb-1">
+                    <ul>
+                        <li>POPUSlR</li>
+                        <li>MOST VIEWED</li>
+                        <li>NEWEST</li>
+                        <li>RANDAM</li>
+                        <li style="margin-left: 200px;"><i class="fa-solid fa-magnifying-glass"></i></li>
+                    </ul>
+                </div>
+
+            </nav>
+     
+
+        <section>
+            <div class="sc-a">
+                <div class="sc-a-1"><img width="100%" height="100%" src="./img/images-removebg-preview (1).png" alt=""></div>
+                <div class="sc-a-2">
+                    <h1 class="bold">PIXTA Shiny Shoes Nike<br>Are the best shoes.</h1>
+
+                    <p class="p">Following initial images released last week,we bring you PIXTA <br> Shiny collaboraton with Nike.</p>
+                    <button class="sc-btn-1">WATCH THE VIVEO</button>
+                </div>
+
+            </div>
+                <div class="sc-b-1" id="Shos">
+                    <h1 class="bold">Other Great Shoes</h1>
+                    <p class="p">EAch shoes is based off of a simular aeshetic as well as being tallored to your general taste.</p>
+                </div>
+                <div class="sc-b-2">
+                <div class="card"><img src="./img/as-removebg-preview (1).png" alt=""><h1  class="show">Nike Roshe Gold</h1><p class="bot">24 left in stock</p><p class="Price">$100</p>
+                </div>
+                   <div class="card"> <img src="./img/bs-removebg-preview (1).png" alt=""><h1 class="show">Nike Roshe Gold</h1><p class="bot">24 left in stock</p>
+                    <p class="Price">$120</p>
+                </div>
+                   <div class="card"> <img src="./img/cs-removebg-preview (1).png" alt=""><h1 class="show">Nike Roshe France</h1><p class="bot">10 left in stock</p>
+                    <p class="Price">$98</p>
+                </div>
+                   <div class="card"> <img src="./img/ds-removebg-preview (1).png" alt=""><h1 class="show">Nike FLyknit Rocer</h1><p class="bot">48 left in stock</p>
+                    <p class="Price">$85</p>
+                </div>
+                </div>
+        </section>
+        <footer>
+            <div class="fo-a">
+                <div class="fo-a-1"><ul><li>COPYRIGNT    ©ALL SIGNTS RESSRVED 2020</ul></div>
+                <div class="fo-a-2"><ul style="margin-left: 50px; margin-right: 50px; font-size: 45px;">
+                    <li><i class="fa-brands fa-facebook-f" style="color: #edf1f8;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #eff0f0;"></i>
+                    <i class="fa-brands fa-r-project" style="color: #dfe0e1;"></i>
+                    <i class="fa-brands fa-square-instagram" style="color: #f3f4f7;"></i></li>
+                </ul></div>
+                <div class="fo-a-3">
+                    <ul><li style="text-decoration: underline;">HELP/CVSTOMIP SIAVICE</li></ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
